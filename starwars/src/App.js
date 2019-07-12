@@ -41,8 +41,7 @@ console.log(state)
           <p>We're fetching that content for you.</p>
         </div>
         </div> :
-      null}
-    
+      null}    
       {state === swData ? <StarWarsMap data={swData} /> : null }
     </div>
   );
